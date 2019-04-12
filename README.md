@@ -42,7 +42,7 @@ and run the migration. After that reconfigure the config/db.php to the second_cl
 
 and run migration again.
 
-Access the application and click over Product Link and do logon (admin/admin). You'll see the product of de first client.
+Access the application and click over Product Link and do logon (admin/admin). You'll see the product of the first client.
 If you logon again with other user (demo/demo) you'll see the product of second client database.
 
 ### Explain the logic

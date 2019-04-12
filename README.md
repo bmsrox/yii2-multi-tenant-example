@@ -76,9 +76,9 @@ return function() {
 ]
 ```
 
-models/Users.php
+#### models/Users.php
 
-Here i have used fixed users, but you can use with a user table
+Here i have used fixed users, but you can use with an user table
 
 ```
 private static $users = [
@@ -125,7 +125,7 @@ class ActiveRecord extends \yii\db\ActiveRecord
 
 #### models/Product.php
 
-All models should be use ActiveRecord from components
+All models that envolved tenant should be use ActiveRecord from components
 
 ```
 use app\components\ActiveRecord;

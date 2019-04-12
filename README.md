@@ -76,7 +76,7 @@ return function() {
 ]
 ```
 
-#### models/Users.php
+#### models/User.php
 
 Here i have used fixed users, but you can use with an user table
 
